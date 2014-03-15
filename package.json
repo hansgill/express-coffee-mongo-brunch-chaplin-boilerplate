@@ -1,0 +1,48 @@
+{
+  "name": "boilerplate",
+  "version": "0.0.1",
+  "private": true,
+  "description": "boilerplate",
+  "keywords": [
+    "simplyMatchME"
+  ],
+  "author": "Hans Gill <hansgill@gmail.com>",
+  "main": "index",
+  "contributors": [
+    {
+      "name": "Hans Gill",
+      "email": "hansgill@gmail.com"
+    }
+  ],
+  "scripts": {
+    "start": "node index"
+  },
+  "dependencies": {
+    "colors": "*",
+    "async": "*",
+    "express": "*",
+    "express-messages": "*",
+    "ejs": "*",
+    "eco": "*",
+    "nconf": "*",
+    "mongoose": "3.8.x",
+    "mongodb": "*",
+    "nodemon": "*",
+    "connect-mongo": "*",
+    "mongo-store": "*",
+    "uglify-js": "*",
+    "uglifycss": "*",
+    "underscore": "latest",
+    "underscore.string": "latest",
+    "winston": "*",
+    "ejs-locals": "*",
+    "consolidate": "*",
+    "passport" : "*",
+    "passport-http-bearer": "*"
+  },
+  "devDependencies": {
+    "coffee-script": ">=1.3",
+    "coffeelint": ">=0.4",
+    "jslint": "0.1.9"
+  }
+}

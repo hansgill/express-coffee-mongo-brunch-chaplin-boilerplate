@@ -1,0 +1,19 @@
+{
+  "name": "npm update -g bower",
+  "version": "0.0.1",
+  "authors": [
+    "Hans Gill <hansgill@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "latest",
+    "bootstrap": "latest"
+  }
+}
