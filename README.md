@@ -26,27 +26,15 @@ At the minimum make changes to the following two properties in config.json or {e
     
     Project = YourprojectNameHere (no spaces allowed)
 
-    CSS_TARGETS = YourProjectNameHere.css (no spaces allowed) We can add more custom css files here
-    ex: CSS_TARGETS =   project.css \
-                        file.css \
-                        more.css
-
-2) Replace boilerplate text in head.html file with name of project for js and css files. These files are automatically created in the lib/server/public folder.
-
-    <link href="css/boilerplate.css" rel="stylesheet">
-    <script src="js/boilerplate.build.js" type="text/javascript"></script>
-
-3) Rename src/static/css/boilerplate.css to projectName.css (same name you have in makefile)
-
-4) Install node packages managed by npm via package.json and browser components managed by bower via bower.json
+2) Install node packages managed by npm via package.json and browser components managed by bower via bower.json
   
     make install
 
-5) Build the project and start watching the files for changes
+3) Build the project and start watching the files for changes
 
     make watch
 
-6) Open up a new console tab type
+4) Open up a new console tab type
     
     nodemon bin/server
 
@@ -55,6 +43,15 @@ At the minimum make changes to the following two properties in config.json or {e
     Ex: NODE_ENV=production nodemon bin/server
 
   This will load properties from config.json followed by production-conf.json. *Any properties with similar names in {environment}-config.json will take precedence over config.json*
+
+5) For the front-end code, open up a new console tab
+    
+    go to src/browser
+
+then type to start watching changes for front-end code
+    
+    brunch watch
+    
 
 ## Enable Basic Auth
 
