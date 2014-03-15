@@ -26,7 +26,7 @@ At the minimum make changes to the following two properties in config.json or {e
     
     Project = YourprojectNameHere (no spaces allowed)
 
-2) Install node packages managed by npm via package.json and browser components managed by bower via bower.json
+2) Install node packages managed by npm via package.json and front-end code via brunch (please ensure you have brunch already installed on your server)
   
     make install
 
